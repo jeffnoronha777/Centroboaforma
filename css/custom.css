@@ -57,6 +57,15 @@ html, body{height: 100%;}
 .unidades {background-image: url('../img/bg-unidades.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
 .unidades article p {line-height: 1.8rem;}
 
+/* CONTATO*/
+
+.contato {background-image: url(../img/textura1.png);}
+.contato .mapa {min-height: 560px;}
+.contato .mapa iframe {width: 100%; min-height: 560px; border: none;}
+.contato .informacoes {background-image: url('../img/textura2.png'); min-height: 560px; padding: 30px;}
+.contato h4 {font-size: 1.2rem; text-transform: uppercase; font-weight: 900;}
+.contato .formulario {min-height: 560px; padding: 30px;}
+
 /* CUSTOM */
 
 .tabs {
