@@ -7,7 +7,9 @@
   <link rel="icon" href="img/fav.png">
 
   <!--Google ICONS-->
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- MATERALIZE CSS -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -27,11 +29,11 @@
     <!-- MENU MOBILE-->
 
     <ul class="side-nav" id="menu-mobile">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#sobre">Sobre o Boa Forma</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#unidades">Unidades</a></li>
-      <li><a href="#contato">Contatos</a></li>
+      <li><a class="hide-menu" href="#home">Home</a></li>
+      <li><a class="hide-menu" href="#sobre">Sobre o Boa Forma</a></li>
+      <li><a class="hide-menu" href="#servicos">Serviços</a></li>
+      <li><a class="hide-menu" href="#unidades">Unidades</a></li>
+      <li><a class="hide-menu" href="#contato">Contatos</a></li>
     </ul>
 
     <div class="navbar-fixed">
@@ -639,7 +641,7 @@
 
     $(document).ready(function () {
 
-      // MENU MOBLIE
+      // MENU MOBILE
 
       $(".button-collapse").sideNav();
     });
@@ -663,6 +665,21 @@
     //  TABS HORARIOS INICIALIZAÇÃO
 
     $("ul.tabs").tabs();
+
+    // ESCONDER MENU AO CLICAR
+
+    $(".hide-menu").click(function() {
+      $(".button-collapse").sideNav("hide");
+    });
+
+    //AUTOPLAY
+
+    function autoplay() {
+      $(".carousel").carousel("next");
+      setTimeout(autoplay, 4500);
+    }
+
+    autoplay();
 
     // ADICIONANDO NAVCOLOR
 
