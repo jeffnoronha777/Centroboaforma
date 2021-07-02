@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph data -->
+
+  <meta property="og:title" content="Centro Boa forma">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.centroboaforma.com.br/">
+  <meta property="og:image" content="http://www.centroboaforma.com.br/centroboaforma.jpg">
+  <meta property="og:description" content="O melhor centro de saúde do Brasil">
+
+  <!-- Schema.org markup for Google+ -->
+
+  <meta itemprop="name" content="Centro Boa forma">
+  <meta itemprop="description" content="O melhor centro de saúde do Brasil">
+  <meta itemprop="image" content="http://www.centroboaforma.com.br/centroboaforma.jpg">
+
+  <!-- Twitter Card data -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@centroboaforma">
+  <meta name="twitter:title" content="Centro boa forma">
+  <meta name="twitter:description" content="O melhor centro de saúde do Brasil">
+  <meta name="twitter:image" content="http://www.example.com/centroboaforma.jpg">
+  <meta name="twitter:domain" content="http://www.centroboaforma.com.br/">
+  <link rel="icon" href="img/fav.png">
+
+  <!--Google ICONS-->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- BOOTSTRAP ICONS CDN -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- MATERALIZE CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- CUSTOM CSS -->
+
+  <link rel="stylesheet" href="css/custom.css">
+
+  <title>Centro Boa Forma - Seu espaço de saúde</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+
+  <header>
+
+    <!-- MENU MOBILE-->
+
+    <ul class="side-nav" id="menu-mobile">
+      <li><a class="hide-menu" href="#home">Home</a></li>
+      <li><a class="hide-menu" href="#sobre">Sobre o Boa Forma</a></li>
+      <li><a class="hide-menu" href="#servicos">Serviços</a></li>
+      <li><a class="hide-menu" href="#unidades">Unidades</a></li>
+      <li><a class="hide-menu" href="#contato">Contatos</a></li>
+    </ul>
+
+    <div class="navbar-fixed">
+
+      <nav class="navbar z-depth-0">
+        <div class="nav-wrapper container">
+
+          <h1 class="logo_text">Centro Boa Forma - Seu espaço de saúde</h1>
+          <a href=""><img class="logo_img" src="img/logo.png" alt="Centro Boa Forma"></a>
+
+          <ul class="right light hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre o Boa Forma</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+            <li><a href="#contato">Contatos</a></li>
+          </ul>
+
+          <a href="#" data-activates="menu-mobile" class="button-collapse right">
+            <i class="material-icons">menu</i>
+          </a>
+
+        </div>
+      </nav>
+
+    </div>
+
+  </header>
+  <!-- HOME -->
+  <section class="home bloco scrollspy" id="home">
+
+    <div class="row container banner">
+      <div class="col s12 center">
+
+        <h2 class="white-text">O melhor treinamento funcional da região</h2>
+
+        <p class="white-text light"> Um novo conceito em prevenção,
+          promoção e reabilitação da saúde para quem busca melhora do condicionamento e emagrecimento,
+          além de ser divertido e desafiador. Quer experimentar?
+        </p>
+
+        <div class="row botoes">
+          <a href="#sobre" class=" btn btn-large blue-logo"> Sobre nós </a>
+          <a href="#contato" class=" btn btn-large white black-text"> Contato </a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre bloco scrollspy" id="sobre">
+    <div class="row container">
+      <div class="col s12 center">
+        <h2 class="light titulo">Sobre nós</h2>
+      </div>
+
+      <div class="col s12 l6">
+        <p> A Centro Boa Forma chegou a itabuna e região trazendo um novo
+          conceito em prevenção, promoção e reabilitação da saúde.
+          Localizada no centro da cidade conta com fácil estacionamento, salas amplas e climatizadas,
+          ambiente confortavel e seguro aos seus usuários. Suas instalações foram projetadas e equipadas
+          sob medida, dentro dos padrões de acessibilidade, para acolher principalmente pessoas com limitações
+          funcionais. O centro dispõe de uma equipe profissional qualificada e com experiência no mercado,
+          prezando sempre por tratamentos individualizados e baseados em evidencias cientificas. Localizada
+          no centro da cidade, conta com fácil estacionamento, salas amplas e climatizadas
+          ambiente confortavel e seguro aos seus usuários.
+        </p>
+      </div>
+
+      <div class="col s12 l6">
+
+        <div class="carousel carousel-slider" data-indicators="true">
+
+          <a class="carousel-item"><img src="img/banner-01.jpg" alt="Imagem Institucional"></a>
+          <a class="carousel-item"><img src="img/banner-02.jpg" alt="Imagem Institucional"></a>
+          <a class="carousel-item"><img src="img/banner-03.jpg" alt="Imagem Institucional"></a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row blue-logo missao-visao-valores">
+      <div class="container">
+
+        <article class="item col s12 m4 center">
+          <span class="icon"><i class="material-icons medium">directions_run</i></span>
+          <h3 class="light">Missão</h3>
+          <p class="light">Promover a saúde e bem-estar dos clientes com ações de prevenção, promoção
+            e reabilitação atráves de tratamentos eficases e humanizados em Fisioterapia e suas vertentes
+          </p>
+        </article>
+
+        <article class="item col s12 m4 center">
+          <span class="icon"><i class="material-icons medium">visibility</i></span>
+          <h3 class="light">Visão</h3>
+          <p class="light">Torna-se referência no cenário estadual, buscando a excelência dos serviços prestados,
+            além de promover o desenvolvimento técnico-científico de sua equipe e da sociedade.
+          </p>
+        </article>
+
+        <article class="item col s12 m4 center">
+          <span class="icon"><i class="material-icons medium">grade</i></span>
+          <h3 class="light">Valores</h3>
+          <ul class="light">
+            <li> Agir com ética frente aos clientes e colaboradores.</li>
+            <li> Tornar o ambiente de trabalho o mais familiar possível.</li>
+            <li> Priorizar a qualidade e excelência do atendimento, valorizando e qualificando
+              a equipe.
+            </li>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="servicos bloco scrollspy" id="servicos">
+    <div class="row container">
+      <div class="col s12 center">
+        <h2 class="light titulo white-text"> Serviços </h2>
+        <p class="light paragrafo white-text"> Suas instalações foram projetadas e equipadas sob medida, dentro dos
+          padrões de
+          acessibilidade,
+          para acolher principalmente pessoas com limitações funcionais. A clínica dispõe de uma equipe profissional
+          qualificada e com exeperiência no mercado, prezando sempre por tratamentos individualizados e baseados em
+          evidências científicas.
+        </p>
+      </div>
+    </div>
+
+    <div class="row container">
+      <!-- PILATES -->
+      <article class="col s12 m6 l3">
+        <div class="card">
+          <div class=" card-image">
+            <img src="img/pilates.jpg" alt="Pilates" class="materialboxed">
+            <!--Efeito landing box no card-->
+            <a href="#pilates-modal" class="btn btn btn-floating halfway-fab blue-logo modal-trigger">
+              <i class="material-icons"> more_horiz</i>
+            </a>
+          </div>
+
+          <div class="card-content">
+
+            <h3 class="card-title">Pilates</h3>
+            <p class="light">O Pilates é indicado para pessoas de todas as idade, podendo ser realizado por homens,
+              mulheres, crianças, grávidas e
+              idosos que já praticam algum tipo de atividade física e também para os sedentários, ajudando a alongar e a
+              fortalecer os
+              músculos, a melhorar a força e a flexibilidade de todo o corpo.</br></br></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- MODAL PILATES -->
+
+      <div class="modal" id="pilates-modal">
+        <!-- Estrutura Básica de um modal do materalize -->
+        <div class="modal-content">
+          <h5 class="light">Mais sobre Pilates</h5><!-- <p class"ligth black-text"> -->
+          <!--<iframe width="560" height="198" src="https://www.youtube.com/embed/27GNsiT3yC8" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>-->
+          <h6 class="light black-text">Quantas vezes se deve fazer pilates por semana?</h6>
+          <p class="light black-text">No geral, 2 a 3 vezes por semana já é suficiente para você ver resultados. Se
+            estiver iniciando com a pratica de 10 a 12
+            semanas, se alcança o nível médio. Contudo, praticar somente uma vez por semana também traz resultados,
+            embora, possa
+            estender o tempo para se ter os benefícios do Pilates.</p>
+          <h6 class="light black-text">Exercícios de Pilates solo.</h6>
+          <ul class="collection">
+            <li class="collection-item">
+              <p class="light black-text">Deitado de barriga para cima, com coluna lombar no solo, joelhos flexionados
+                90 graus com os pés flutuando, braços ao
+                longo do corpo e escápulas estabilizadas.
+            </li>
+          </ul>
+        </div>
+
+        <div class="modal-footer">
+          <a class="btn blue-logo modal-action modal-close">Sair</a>
+        </div>
+      </div>
+
+      <!-- NUTRIÇÃO -->
+      <article class="col s12 m6 l3">
+        <div class="card">
+          <div class=" card-image">
+            <img src="img/nutricao.jpg" alt="Nutrição" class="materialboxed">
+            <!--Efeito landing box no card-->
+            <a href="#nutricao-modal" class="btn btn btn-floating halfway-fab blue-logo modal-trigger">
+              <i class="material-icons"> more_horiz</i>
+            </a>
+          </div>
+
+          <div class="card-content">
+
+            <h3 class="card-title">Nutrição</h3>
+            <p class="light">É através da ingestão dos alimentos corretos que o organismo recebe os nutrientes,
+              vitaminas e minerais que precisa para
+              manter seu funcionamento da melhor maneira, inclusive prevenindo contra doenças como anemia, obesidade,
+              diabetes tipo 2,
+              acidente vascular cerebral (AVC) e várias outras.</br></br></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- MODAL NUTRIÇÃO -->
+      <!-- Estrutura do Modal -->
+      <div class="modal" id="nutricao-modal">
+        <div class="modal-content"></div>
+
+        <div class="modal-footer">
+          <a class="btn blue-logo modal-action modal-close">Sair</a>
+        </div>
+
+      </div>
+
+
+      <!-- FISIOTERAPIA -->
+      <article class="col s12 m6 l3">
+        <div class="card">
+          <div class=" card-image">
+            <img src="img/fisioterapia.jpg" alt="Fisioterapia" class="materialboxed">
+            <!--Efeito landing box no card-->
+            <a href="#fisioterapia-modal" class="btn btn btn-floating halfway-fab blue-logo modal-trigger">
+              <i class="material-icons"> more_horiz</i>
+            </a>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Fisioterapia</h3>
+            <p class="light">A Fisioterapia auxilia e muito para um relaxamento mental e diminuição do estresse e
+              sentimentos negativos, que
+              normalmente chegam junto com a depressão. As massagens podem ser grandes aliadas nesse sentido, pois elas
+              oferecem
+              relaxamento dos músculos e, consequentemente, previnem dores.</br></br></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- MODAL Fisioterapia -->
+      <!-- Estrutura do Modal -->
+      <div class="modal" id="fisioterapia-modal">
+        <div class="modal-content"></div>
+
+        <div class="modal-footer">
+          <a class="btn blue-logo modal-action modal-close">Sair</a>
+        </div>
+
+      </div>
+
+
+      <!-- FUNCIONAL -->
+      <article class="col s12 m6 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/funcional.jpg" alt="Funcional" class="materialboxed">
+            <!--Efeito landing box no card-->
+            <a href="#funcional-modal" class="btn btn btn-floating halfway-fab blue-logo modal-trigger">
+              <i class="material-icons"> more_horiz</i>
+            </a>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Funcional</h3>
+            <p class="light">Com o treinamento funcional é possível melhorar o tônus muscular, aumentar a massa magra e
+              diminuir o percentual de
+              gordura, auxiliando na definição corpo. Por movimentar muitos músculos num mesmo exercício, aumenta também
+              a frequência
+              cardíaca, otimizando a queima de calorias e ajudando a perder peso.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- MODAL Funcional -->
+      <!-- Estrutura do Modal -->
+      <div class="modal" id="funcional-modal">
+        <div class="modal-content"></div>
+
+        <div class="modal-footer">
+          <a class="btn blue-logo modal-action modal-close">Sair</a>
+        </div>
+
+      </div>
+
+      <!--Botão Quadro de Horários-->
+
+      <div class="row center btn-horario">
+        <a href="#horarios-modal" class="btn btn btn-large blue-logo modal-trigger">
+          <i class="material-icons left">timer</i>
+          Quadro de Horários
+        </a>
+      </div>
+
+      <!-- MODAL QUADRO DE HORÁRIOS -->
+
+      <div class="modal" id="horarios-modal">
+        <div class="modal-content">
+          <h5 class="light"> Quadro de Horários </h5>
+
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#tabela-pilates">Pilates</a></li>
+            <li class="tab col s3"><a href="#tabela-musculacao">Musculação</a></li>
+            <li class="tab col s3"><a href="#tabela-fitness">Fitness</a></li>
+            <li class="tab col s3"><a href="#tabela-artes-marciais">Artes Marciais</a></li>
+          </ul>
+          <!-- TABELAS PILATES -->
+
+
+          <table class="striped responsive-table" id="tabela-pilates">
+            <!-- Estrutura de Tabelas -->
+
+            <thead>
+              <tr>
+                <th>Horários</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>6:00 às 10:00</td>
+                <td></td>
+                <td>Pilates</td>
+                <td></td>
+                <td>Pilates</td>
+                <td></td>
+                <td>Pilates</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>12:00 às 22:00</td>
+                <td>Pilates</td>
+                <td></td>
+                <td>Pilates</td>
+                <td></td>
+                <td>Pilates</td>
+                <td></td>
+                <td></td>
+              </tr>
+
+            </tbody>
+
+            </tbody>
+          </table>
+
+          <table class="striped responsive-table" id="tabela-musculacao">
+            <!-- Estrutura de Tabelas -->
+
+            <thead>
+              <tr>
+                <th>Horários</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>6:00 às 10:00</td>
+                <td></td>
+                <td>Musculação</td>
+                <td></td>
+                <td>Musculação</td>
+                <td></td>
+                <td>Musculação</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>12:00 às 22:00</td>
+                <td>Musculação</td>
+                <td></td>
+                <td>Musculação</td>
+                <td></td>
+                <td>Musculação</td>
+                <td></td>
+                <td></td>
+              </tr>
+
+            </tbody>
+
+            </tbody>
+          </table>
+
+          <table class="striped responsive-table" id="tabela-fitness">
+            <!-- Estrutura de Tabelas -->
+
+            <thead>
+              <tr>
+                <th>Horários</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>6:00 às 10:00</td>
+                <td></td>
+                <td>Fitness</td>
+                <td></td>
+                <td>Fitness</td>
+                <td></td>
+                <td>Fitness</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>12:00 às 22:00</td>
+                <td>Fitness</td>
+                <td></td>
+                <td>Fitness</td>
+                <td></td>
+                <td>Fitness</td>
+                <td></td>
+                <td></td>
+              </tr>
+
+            </tbody>
+
+            </tbody>
+          </table>
+
+          <table class="striped responsive-table" id="tabela-artes-marciais">
+            <!-- Estrutura de Tabelas -->
+
+            <thead>
+              <tr>
+                <th>Horários</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>6:00 às 10:00</td>
+                <td></td>
+                <td>Artes Marciais</td>
+                <td></td>
+                <td>Artes Marciais</td>
+                <td></td>
+                <td>Artes Marciais</td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>12:00 às 22:00</td>
+                <td>Artes Marciais</td>
+                <td></td>
+                <td>Artes Marciais</td>
+                <td></td>
+                <td>Artes Marciais</td>
+                <td></td>
+                <td></td>
+              </tr>
+
+            </tbody>
+
+            </tbody>
+          </table>
+
+        </div>
+        <div class="modal-footer">
+          <a class="btn blue-logo modal-action modal-close">Sair</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- UNIDADES -->
+
+  <section class="unidades bloco scrollspy" id="unidades">
+    <div class="row container">
+      <div class="col s12 center">
+        <h2 class="light titulo white-text"> Unidades </h2>
+        <p class="light paragrafo white-text"> Para oferecer servicos de acordo com a realidade e necessidade de cada
+          região
+          do Brasil. O centro boa forma possui unidades em quatro estados. Com atividades permanentes os espaços físicos
+          buscam
+          oferecer facilidade de acesso e atendimento de qualidade.
+        </p>
+      </div>
+    </div>
+    <div class="row container">
+
+      <!-- BH -->
+      <article class="col s12 l6">
+        <div class="card horizontal">
+
+          <div class="card-image card-image-horizontal">
+            <img src="img/bh.jpg" alt="Belo Horizonte">
+          </div>
+          <div class="card-stacked">
+
+            <div class="card-content">
+              <h3 class="card-title light">Belo Horizonte</h3>
+              <p class="light">
+                <i class="material-icons left">phone</i> 62 4002-8922<br>
+                <i class="material-icons left">email</i> bh@boaforma.com<br>
+                <i class="material-icons left">location_on</i> Av. Belo Horizonte, 123
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Salvador -->
+      <article class="col s12 l6">
+        <div class="card horizontal">
+
+          <div class="card-image card-image-horizontal">
+            <img src="img/salvador.jpg" alt="Salvador">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="card-title light">Salvador</h3>
+              <p class="light">
+                <i class="material-icons left">phone</i> 62 8922-4002<br>
+                <i class="material-icons left">email</i> salvador@boaforma.com<br>
+                <i class="material-icons left">location_on</i> Av. Esperança, 321
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- São Paulo -->
+      <article class="col s12 l6">
+        <div class="card horizontal">
+
+          <div class="card-image card-image-horizontal">
+            <img src="img/sp.jpg" alt="São Paulo">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="card-title light">São Paulo</h3>
+              <p class="light">
+                <i class="material-icons left">phone</i> 62 3524-4444<br>
+                <i class="material-icons left">email</i> sp@boaforma.com<br>
+                <i class="material-icons left">location_on</i> Av. Paz, 777
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Rio de Janeiro -->
+      <article class="col s12 l6">
+        <div class="card horizontal">
+
+          <div class="card-image card-image-horizontal">
+            <img src="img/rj.jpg" alt="Rio de Janeiro">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h3 class="card-title light">Rio de Janeiro</h3>
+              <p class="light">
+                <i class="material-icons left">phone</i> 62 3524-4122<br>
+                <i class="material-icons left">email</i> rj@boaforma.com<br>
+                <i class="material-icons left">location_on</i> Av. Nova Ordem, 771
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato bloco scrollspy" id="contato">
+
+    <div class="row container">
+      <div class="col s12 center">
+        <h2 class="light titulo black-text">Contato</h2>
+      </div>
+
+      <div class="col s12 m6 l4 hide-on-med-only">
+        <div class="mapa transparent">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17776.625709388394!2d-49.232559030643436!3d-16.83099785723435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6bc491a1ecabd410!2sPanificadora%20Talism%C3%A3!5e0!3m2!1spt-PT!2sbr!4v1602495157411!5m2!1spt-PT!2sbr"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l4">
+        <div class="informacoes white-text">
+          <h4>Redes Sociais</h4>
+          <p class="light paragrafo">Fique por dentro das novidades, receba dicas, ou mostre ao mundo que você faz parte
+            desse
+            projeto sensacional!</p>
+
+          <a href="#" class="btn-floating blue-logo">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="btn-floating blue-logo">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+          <a href="#" class="btn-floating blue-logo">
+            <i class="fa fa-twitter"></i>
+          </a>
+
+          <h4>Endereço</h4>
+          <p class="light">Rua Veneza, Qd. 11 Lote. 18, Setor Nova Olinda, Aparecida de Goiânia - GO.</p>
+
+          <h4>Contatos</h4>
+          <p class="ligth">
+            (62) 4002-8922 <br>
+            (62) 8922-4002 <br>
+            (62) 2289-0240
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Estrutura base do formulario Materalize -->
+      <div class="col s12 m6 l4">
+        <div class="formulario white black-text">
+          <h4>Fale conosco</h4>
+          <p class="light"> Dúvidas, criticas ou sugestões? Entre em contato conosco. Mande seu feedback é muito
+            importante.</p>
+
+          <form action="enviar-email.php" method="post">
+            <div class="input-field">
+              <input type="text" name="name" id="name">
+              <label for="name">Seu nome</label>
+            </div>
+
+            <div class="input-field">
+              <input type="email" name="email" id="email">
+              <label for="email">Seu email</label>
+            </div>
+
+            <div class="input-field">
+              <input type="text" name="subject" id="subject">
+              <label for="subject">Assunto</label>
+            </div>
+            
+            <div class="input-field">
+              <textarea id="message" name="message" class="materialize-textarea"></textarea>
+              <label for="message">Mensagem</label>
+              <button class="btn blue-logo" type="submit">Enviar</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+
+  <div class="depoimentos blue-logo">
+    <div class="row container">
+      <div class="col s12 center">
+        <h2 class="titulo white-text light">Depoimentos</h2>
+      </div>
+
+      <div class="col s12 m4 center">
+        <img src="img/depo1.jpg" alt="Depoimento 1" class="circle responsive-img">
+        <p class="light white-text">"Conheci o treinamento funcional e a metologia Centro Boa Forma por indicação de um
+          amigo. Excelentes profissionais e super atenciosos"</p>
+        <h4 class="light white-text">Felipe Souza</h4>
+        <p class="white-text">
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </p>
+      </div>
+
+      <div class="col s12 m4 center">
+        <img src="img/depo2.jpg" alt="Depoimento 2" class="circle responsive-img">
+        <p class="light white-text">"Gostei muito da oficina e das aulas, superou minhas expectativas.
+          A empresa e os treinamentos foram ótimos, sempre atenciosos é prestativos para com o cliente!"</p>
+        <h4 class="light white-text">Bruno Valério</h4>
+        <p class="white-text">
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </p>
+      </div>
+
+      <div class="col s12 m4 center">
+        <img src="img/depo3.jpg" alt="Depoimento 1" class="circle responsive-img">
+        <p class="light white-text">"Treinar com motivação e satisfação pelos resultados obtidos são os motivos que me
+          conquistaram e me mantém no Centro Boa Forma."</p>
+        <h4 class="light white-text">Joana Souza</h4>
+        <p class="white-text">
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+          <i class="material-icons">star</i>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+  <footer class="rodape">
+    <div class="row container center">
+      <img class="logo_img" src="img/logo.png" alt="Logomarca do site">
+      <p class="light white-text">&copy; Centro Boa Forma 2017 - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- MATERALIZE JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!--JAVASCRIPT-->
+  <script>
+    // INICIALIZAÇÃO
+
+    $(document).ready(function () {
+
+      // MENU MOBILE
+
+      $(".button-collapse").sideNav();
+    });
+
+    //LINK INTERNO
+
+    $(".scrollspy").scrollSpy({
+      scrollOffset: 0
+    });
+
+    // CAROUSEL
+
+    $(".carousel.carousel-slider").carousel({
+      fullWidth: true
+    });
+
+    // MODAL INICIALIZAÇÃO
+
+    $(".modal").modal();//Codico de Inicialização dos Modal
+
+    //  TABS HORARIOS INICIALIZAÇÃO
+
+    $("ul.tabs").tabs();
+
+    // ESCONDER MENU AO CLICAR
+
+    $(".hide-menu").click(function () {
+      $(".button-collapse").sideNav("hide");
+    });
+
+    //AUTOPLAY
+
+    function autoplay() {
+      $(".carousel").carousel("next");
+      setTimeout(autoplay, 4500);
+    }
+
+    autoplay();
+
+    // ADICIONANDO NAVCOLOR
+
+    $(window).on("scroll", function () {
+
+      if ($(window).scrollTop() > 100) {
+
+        $(".navbar").addClass("nav-color");
+
+      } else {
+
+        $(".navbar").removeClass("nav-color")
+
+      }
+
+    });
+  </script>
+
+<?php 
+      if(isset($_GET['status'])):
+      if ($_GET['status'] == "sucesso"):
+        echo "<script>Materialize.toast('Enviado com sucesso!', 4000);</script>";
+      else:
+         echo "<script>Materialize.toast('Erro ao enviar!!!', 4000);</script>";
+          endif;
+        endif;
+?> 
+  
+</body>
+
+</html>
